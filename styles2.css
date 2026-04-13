@@ -1,0 +1,53 @@
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.child-box {
+    border: 1px solid black;
+    padding: 15px;
+    width: 250px;
+    height: 350px;
+    background-color: white;
+}
+
+.video-box {
+    border: 1px solid black;
+    padding: 15px;
+    width: 185px;
+    height: 360px;
+    background-color: white;
+}
+
+.hobby-image {
+    max-width: 250px;
+}
+
+.hobby-video {
+    max-width: 250px;
+    max-height: 350px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5; 
+}
+
+h1 {
+    font-size: 25px;
+}
+
+.info {
+    animation-name: colorChange;
+    animation-duration: 10s;
+}
+
+@keyframes colorChange {
+    from {
+        color: black;
+    }
+    to {
+        color: red;
+    }
+}

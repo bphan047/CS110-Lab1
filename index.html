@@ -1,0 +1,88 @@
+<!DOCTYPE html> 
+<html lang = "en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Brandon Phan Resume</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class = "top-heading">
+            <h1> Brandon Phan </h1>
+            <h2> 3rd Year Student at UCR </h2>
+        </div>
+        <img src="myself.jpg" alt = "Picture of myself" class = "my-image">
+
+        <hr>
+
+        <h2> &#128214 Education </h2>
+        <ul>
+            <li> <strong> Bachelor of Science, Computer Science </strong> - <i> University of California, Riverside (2023-2027) </i> </li>
+            <li> <strong> High School Diploma </strong> - <i> Mission Viejo High School (2019-2023) </i> </li>
+        </ul>
+
+        <hr>
+
+        <h2> &#128187 Selected Projects </h2>
+        <ul>
+            <li> 
+                <strong> C++ Terminal Based Game</strong> - <i> March 2025 </i> 
+            <ul>
+                <li> Built a dungeon-like game using C++ and followed the SOLID principles and object oriented programming to ensure clean and readable code. </li>
+                <li> Wrote unit tests with GoogleTest (GTest) to verify that the game ran smoothly and had no issues.</li>
+                <li> Implemented:
+                <ul>
+                    <li> Simple speed-based turn system to determine action order in combat. </li>
+                    <li> Inventory system to store items from lootboxes and using a simple check system to ensure no duplicates. </li>
+                    <li> Attack system using a vector of pointers to determine which enemy the player wanted to attack and used iterators to safely remove anything that was defeated. </li>
+                    <li> Inheritance-based class structures for players and mobs, allowing easy addition of new characters and enemy types without modifying existing code. </li>
+                </ul>
+                </li>
+            </ul>
+            </li>
+            <li> <strong> 8-Puzzle Solver </strong> - <i> December 2025 </i> 
+            <ul>
+                <li> Built an 8-Puzzle solver implementing Uniform Cost Search and A* with Misplaced Tile and Manhattan Distance heuristics. Designed the state representation to support extension to larger N-Puzzle boards. </li>
+                <li> Created a neighbor-generation function that determines valid tile movements by locating the blank space and swapping adjacent tiles (up, down, left, right). </li>
+                <li> Used a priority queue to always expand the most promising puzzle state first based on cumulative cost and heuristic estimate, reducing unnecessary node expansions and improving search efficiency. </li>
+            </ul>
+            </li>
+        </ul>
+
+        <hr>
+
+        <h2> &#128077 Skills </h2>
+        <ul>
+            <li> Programming Languages:
+            <ul> 
+                <li> C++ </li>
+                <li> JavaScript </li>
+                <li> CSS </li>
+                <li> HTML </li>
+            </ul>
+            </li>
+            <li> Tools and Libraries:
+            <ul>
+                <li> GTest </li>
+                <li> Visual Studio Code (VSCode) </li>
+                <li> GitHub </li>
+            </ul>
+            </li>
+        </ul>
+
+        <hr>
+
+        <h2> &#128269 Subject Interests </h2>
+        <p> Website Development: I've been very interested in understanding how websites are able to store and present the information we see on the screen. Currently taking a class to explore this field and strengthen my knowledge on frontend and backend development. </p>
+        <p> AI/ML: I've wanted to look into how AIs are able to get their information and give us responses based on what we have told it. Although I haven't done as much research in this field as I have with website development, it's been a field I've wanted to explore since I entered university. </p>
+
+        <hr>
+
+        <h2> Links To Relevant Websites </h2>
+        <a href="https://github.com/bphan047"> 
+            <img src= "github-logo.png" alt = "To my GitHub" class = "small-image">
+        </a>
+        <a href = "https://www.linkedin.com/in/brandon-phan-891768338/?skipRedirect=true">
+            <img src= "linkedin-logo.png" alt = "To my LinkedIn" class = "small-image">
+        </a>
+    </body>
+</html>

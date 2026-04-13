@@ -1,0 +1,44 @@
+<!DOCTYPE html> 
+<html lang = "en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Brandon Phan Hobby</title>
+        <link rel="stylesheet" href="styles2.css">
+    </head>
+    <body>
+        <h1> My Hobby: Gaming </h1>
+        <p class = "info"> Whenever I have free time, I enjoy playing video games. It helps me relieve stress since I am more focused about playing the video game 
+            compared to thinking about expectations for me in real life. If I am doing anything but video games, I am prone to panicking about all the 
+            responsibilities I need to take care of now that I am close to graduating. Gaming helps my mind forget about
+            all of these
+        </p>
+        <div class="flex">
+            <div class= "child-box">
+                <img src = "hobby-image.avif" alt = "Image of my hobby" class = "hobby-image">
+            </div>
+            <div class="video-box">
+                <video controls class = "hobby-video">
+                    <source src = "video.mp4" type = "video/mp4">
+                </video>
+            </div>
+            <div class="child-box">
+                <form action="" method="GET">
+                    <label for = "game"> What is your favorite video game? </label>
+                    <input id = "game" type="text" required>
+                
+                    <p> Do you play games every week? </p>
+                
+                    <input type = "radio" name = "weekly" value = "yes" id = "yes">
+                    <label for = "yes"> Yes </label>
+                
+                    <input type= "radio" name = "weekly" value = "no" id = "no">
+                    <label for= "no"> No </label>
+                
+                    <p></p>
+                
+                    <input type = "submit" value = "Submit Response">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
