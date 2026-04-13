@@ -1,25 +1,24 @@
-.top-heading {
-    color: rgb(128, 0, 128);
-}
-
-.small-image {
-    width: 50px;
-}
-
-.my-image {
-    width: 150px;
-}
-
 li {
     font-size: 16px;
     line-height: 1.5;
 }
 
-h1, h2 {
+h1 {
     font-size: 20px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
     background-color: lightcyan;
+}
+
+p {
+    color: red;
+    font-size: 15px;
+    line-height: 1.8;
 }
